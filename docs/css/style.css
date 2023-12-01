@@ -1,0 +1,17 @@
+*{
+       padding: 200;
+       margin: 400;
+
+}
+
+h1{
+       text-align: center;
+
+}
+
+body {
+        background-color: rgb(125, 168, 178);
+        margin: 0; /* Para eliminar el margen predeterminado del body */
+        padding: 0; /* Para eliminar el relleno predeterminado del body */
+ }
+
