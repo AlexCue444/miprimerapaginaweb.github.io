@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALEXWEB</title>
-    <link rel='stylesheet' href='./css/style.css'/>
+    <link rel='stylesheet' href='../css/style.css'/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
  <!-- ////////////////////// -->
@@ -12,18 +12,35 @@
    <div class = "page">
         <div class="menu">
         <div class="sidebar">
-            <h1>Hello, World!</h1>
-           
-
+            <h1>Contact</h1>
             <div class="profile">
                 <img
                 src="https://gitmash.netlify.app/img/github-white.png"
                 alt="profile_picture">
                 <h3>Alejandro Cue</h3>
                 <p>UFV student</p>
-                <h4> Hey! welcome to my first webpage using HTML. 
-                    my name is Alex and this web page is part of my work done for the subject of Fundamentals of Computer Engineering.
-                    This page was created during my first year here at the university in December 2023. Dont hesitate to continue exploring this web page through the menu below! </h4>
+               <!-- <p><b> Use the box below to contact me!</b></p> -->
+                <div class="form">
+                <form action="./my-handling-form-page" method="post">
+                    <ul>
+                    <li>
+                    <label for="name"><b>NAME</b></label>
+                </li><li>
+                    <input type="text" id="name" name="user_name"/>
+                    </li><li>
+                    <label for="mail"><b>E-MAIL</b></label>
+                </li><li>
+                    <input type="email" id="mail" name="user_email"/>
+                    </li><li>
+                    <label for="msg"><b>MESSAGE</b></label>
+                </li><li>
+                    <textarea id="msg" name="user_message"></textarea>
+                    </li><li>
+                    <button type="submit">Send your message</button>
+                    </li>
+                    </ul>
+                    </form>
+                </div>
                 </div>
 
 
@@ -31,31 +48,31 @@
                 <div class="buttons">
                     <ul>
                     <li>
-                    <a href="./public/pageContact.html">
+                    <a href="#">
                     <span class="icon"><i class="fas fa-envelope"></i></span>
-                    <span class="item">Contact</span>
+                    <span class="item"> <i>Contact</i></span>
                     </a>
                     </li>
                     <li>
-                    <a href="./public/pageAbout.html">
+                    <a href="./pageAbout.html">
                     <span class="icon"><i class="fas fa-user"></i></span>
                     <span class="item">About me</span>
                     </a>
                     </li>
                     <li>
-                    <a href="./public/pageDegree.html">
+                    <a href="./pageDegree.html">
                     <span class="icon"><i class="fas fa-book"></i></span>
                     <span class="item">Degree</span>
                     </a>
                     </li>
                     <li>
-                    <a href="./public/pageTopic.html">
+                    <a href="./pageTopic.html">
                     <span class="icon"><i class="fas fa-file"></i></span>
                     <span class="item"> My Topic</span>
                     </a>
                     </li>
                     <li>
-                    <a href="./public/pageNet.html">
+                    <a href="./pageNet.html">
                     <span class="icon"><i class="fas fa-paperclip"></i></span>
                     <span class="item">Network</span>
                     </a>
