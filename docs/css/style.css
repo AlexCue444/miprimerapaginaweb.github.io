@@ -270,3 +270,11 @@ button:hover{ background-color: red;}
                      padding-bottom:10px;
                      padding-right:10px;
                   }
+
+/* style unique to images: */
+.ufv-pic img{
+width: 30%; margin-left: 500px;}
+
+.me-at-beach-pic img{
+       width: 35%; margin-left: 450px;
+}
